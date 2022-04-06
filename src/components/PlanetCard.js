@@ -8,7 +8,7 @@ class PlanetCard extends React.Component {
       <div data-testid="planet-card">
         <p data-testid="planet-name">{ planetName }</p>
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-        {/* no final de um elemento sem filhos pode ser fechado imediatamente com /  link: https://pt-br.reactjs.org/docs/jsx-in-depth.html */}
+        {/* No final de um elemento sem filhos pode ser fechado imediatamente com /  link: https://pt-br.reactjs.org/docs/jsx-in-depth.html */}
       </div>
     );
   }

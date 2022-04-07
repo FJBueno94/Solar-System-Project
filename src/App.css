@@ -1,3 +1,258 @@
-.App {
+body {
+  position: relative;
+  background: #C5C9CE;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 2480px;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
   text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.planetas {
+  display: flex;
+  justify-content: center;
+}
+
+.planetasBox {
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  top: 180px;
+  border-radius: 17px;
+  border: 1px white solid;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.planetasText {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#Mercúrio img {
+  position: absolute;
+  width: 41px;
+  height: 31px;
+  left: 130px;
+  top: 516px;
+
+}
+
+#Mercúrio p {
+  position: absolute;
+  width: 71px;
+  height: 24px;
+  left: 115px;
+  top: 618px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+}
+
+#Vênus img {
+  position: absolute;
+  width: 102px;
+  height: 76px;
+  left: 228px;
+  top: 493px;
+}
+
+#Vênus p {
+  position: absolute;
+  width: 48px;
+  height: 24px;
+  left: 255px;
+  top: 618px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: white
+}
+
+#Terra img {
+  position: absolute;
+  width: 106px;
+  height: 79px;
+  left: 369px;
+  top: 492px;
+}
+
+#Terra p {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  left: 402px;
+  top: 618px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#Marte img {
+  position: absolute;
+  width: 66px;
+  height: 50px;
+  left: 514px;
+  top: 506px;
+}
+
+#Marte p {
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 524px;
+  top: 618px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#Júpiter img {
+  position: absolute;
+  width: 272px;
+  height: 204px;
+  left: 580px;
+  top: 414px;
+}
+
+#Júpiter p {
+  position: absolute;
+  width: 52px;
+  height: 24px;
+  left: 690px;
+  top: 618px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#Saturno img {
+  position: absolute;
+  width: 282.41px;
+  height: 210.9px;
+  left: 785px;
+  top: 410px;
+  transform: rotate(-16.53deg);
+}
+
+#Saturno p {
+  position: absolute;
+  width: 63px;
+  height: 24px;
+  left: 933px;
+  top: 618px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#Urano img {
+  position: absolute;
+  width: 144px;
+  height: 109px;
+  left: 1068px;
+  top: 472px;
+
+}
+
+#Urano p {
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 1116px;
+  top: 618px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+#Netuno img {
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  left: 1202px;
+  top: 472px;
+}
+
+#Netuno p {
+  position: absolute;
+  width: 58px;
+  height: 24px;
+  left: 1245px;
+  top: 618px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.missoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.missoesBox {
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  top: 800px;
+  border-radius: 17px;
+  border: 1px white solid;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.missoesText {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }

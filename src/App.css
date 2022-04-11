@@ -1,8 +1,8 @@
 body {
   background-image: url('./images/background.png');
   background-size: cover;
-  position: relative;
   display: flex;
+  position: relative;
   height: 2480px;
   justify-content: center;
   width: 1440px;
@@ -28,16 +28,16 @@ header {
 
 .planetasBox {
   background: rgba(24, 26, 37, 0.5);
-  height: 80px;
   border: 1px white solid;
+  height: 80px;
   position: absolute;
-  width: 80%;
   align-items: center;
+  width: 80%;
   border-radius: 17px;
-  display: flex;
   align-self: center;
-  top: 140px;
+  display: flex;
   justify-content: center;
+  top: 140px;
   mix-blend-mode: hard-light;
 }
 
@@ -45,224 +45,6 @@ header {
   color: white;
   font-family: Arial , Helvetica , sans-serif;
   font-size: 40px;
-}
-
-
-#Mercúrio img {
-  left: 130px;
-  height: 31px;
-  top: 416px;
-  position: absolute;
-  width: 41px;
-}
-
-#Mercúrio p {
-  font-family: Arial , Helvetica , sans-serif;
-  color: white;
-  font-size: 18px;
-  font-style: normal;
-  left: 115px;
-  font-weight: 400;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 71px;
-}
-
-#Vênus img {
-  left: 228px;
-  border-radius: 17px;
-  top: 393px;
-  height: 76px;
-  position: absolute;
-  width: 102px;
-}
-
-#Vênus p {
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  color: white;
-  font-style: normal;
-  font-weight: 400;
-  left: 255px;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 48px;
-}
-
-#Terra img {
-  left: 369px;
-  height: 79px;
-  top: 392px;
-  position: absolute;
-  width: 106px;
-}
-
-#Terra p {
-  color: white;
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  left: 402px;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 41px;
-}
-
-#Marte img {
-  left: 514px;
-  height: 50px;
-  top: 406px;
-  position: absolute;
-  width: 66px;
-}
-
-#Marte p {
-  color: white;
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  left: 524px;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 47px;
-}
-
-#Júpiter img {
-  left: 580px;
-  height: 204px;
-  top: 314px;
-  position: absolute;
-  width: 272px;
-}
-
-#Júpiter p {
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  color: white;
-  line-height: 150%;
-  left: 690px;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 52px;
-}
-
-#Saturno img {
-  left: 785px;
-  height: 210.9px;
-  top: 310px;
-  position: absolute;
-  width: 282.41px;
-  transform: rotate(-16.53deg);
-}
-
-#Saturno p {
-  color: white;
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  left: 903px;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 63px;
-}
-
-#Urano img {
-  left: 1068px;
-  height: 109px;
-  top: 372px;
-  position: absolute;
-  width: 144px;
-}
-
-#Urano p {
-  color: white;
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  left: 1116px;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 47px;
-}
-
-#Netuno img {
-  height: 107px;
-  position: absolute;
-  left: 1202px;
-  width: 144px;
-  top: 372px;
-}
-
-#Netuno p {
-  color: white;
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  left: 1245px;
-  line-height: 150%;
-  height: 24px;
-  top: 518px;
-  position: absolute;
-  width: 58px;
-}
-
-.missoes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-.missoesBox {
-  position: absolute;
-  background: rgba(24, 26, 37, 0.5);
-  border: 1px white solid;
-  height: 80px;
-  align-items: center;
-  border-radius: 17px;
-  width: 80%;
-  display: flex;
-  align-self: center;
-  top: 650px;
-  justify-content: center;
-  mix-blend-mode: hard-light;
-}
-
-.missoesText {
-  color: white;
-  font-family: Arial , Helvetica , sans-serif;
-  font-size: 40px;
-}
-
-.missionCard {
-  background: rgba(24, 26, 37, 0.5);
-  border: 1px solid white;
-  height: 281px;
-  border-radius: 17px;
-  width: 354px;
-  box-sizing: border-box;
-  mix-blend-mode: hard-light;
-  margin-bottom: 30px;
 }
 
 .missionCard p {
@@ -276,6 +58,222 @@ header {
   text-align: justify;
 }
 
+#Mercúrio img {
+  height: 31px;
+  left: 130px;
+  position: absolute;
+  top: 416px;
+  width: 41px;
+}
+
+#Mercúrio p {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 115px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 71px;
+}
+
+#Vênus img {
+  border-radius: 17px;
+  left: 228px;
+  height: 76px;
+  top: 393px;
+  position: absolute;
+  width: 102px;
+}
+
+#Vênus p {
+  font-family: Arial , Helvetica , sans-serif;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 255px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 48px;
+}
+
+#Terra img {
+  height: 79px;
+  left: 369px;
+  position: absolute;
+  top: 392px;
+  width: 106px;
+}
+
+#Terra p {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 402px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 41px;
+}
+
+#Marte img {
+  height: 50px;
+  left: 514px;
+  position: absolute;
+  top: 406px;
+  width: 66px;
+}
+
+#Marte p {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 524px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 47px;
+}
+
+#Júpiter img {
+  height: 204px;
+  left: 580px;
+  position: absolute;
+  top: 314px;
+  width: 272px;
+}
+
+#Júpiter p {
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+  font-weight: 400;
+  height: 24px;
+  left: 690px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 52px;
+}
+
+#Saturno img {
+  height: 210.9px;
+  left: 785px;
+  position: absolute;
+  top: 310px;
+  transform: rotate(-16.53deg);
+  width: 282.41px;
+}
+
+#Saturno p {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 903px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 63px;
+}
+
+#Urano img {
+  height: 109px;
+  left: 1068px;
+  position: absolute;
+  top: 372px;
+  width: 144px;
+}
+
+#Urano p {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 1116px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 47px;
+}
+
+#Netuno img {
+  height: 107px;
+  left: 1202px;
+  position: absolute;
+  top: 372px;
+  width: 144px;
+}
+
+#Netuno p {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  left: 1245px;
+  height: 24px;
+  line-height: 150%;
+  position: absolute;
+  top: 518px;
+  width: 58px;
+}
+
+.missoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.missoesBox {
+  background: rgba(24, 26, 37, 0.5);
+  position: absolute;
+  border: 1px white solid;
+  align-items: center;
+  height: 80px;
+  border-radius: 17px;
+  align-self: center;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  top: 650px;
+  mix-blend-mode: hard-light;
+}
+
+.missoesText {
+  color: white;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 40px;
+}
+
+.missionCard {
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  height: 281px;
+  box-sizing: border-box;
+  width: 354px;
+  margin-bottom: 30px;
+  mix-blend-mode: hard-light;
+}
+
 #missionName {
   font-size: 28px;
   font-weight: 700;
@@ -284,10 +282,10 @@ header {
 .cards {
   display: flex;
   left: 140px;
-  position: absolute;
   align-items: baseline;
-  top: 800px;
+  position: absolute;
   flex-wrap: wrap;
+  top: 800px;
   justify-content: space-around;
   width: 80%;
 }

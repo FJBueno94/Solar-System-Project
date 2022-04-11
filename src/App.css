@@ -1,12 +1,12 @@
 body {
   background: #C5C9CE;
+  background-image: url("./images/background.png");
   position: relative;
-  background-image: url(./images/background.png);
   background-size: cover;
   display: flex;
-  justify-content: center;
   height: 2480px;
   width: 1440px;
+  justify-content: center;
 }
 
 header {
@@ -16,9 +16,9 @@ header {
 
 .header {
   color: white;
-  text-align: center;
-  font-size: 60px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  text-align: center;
   font-weight: 700;
 }
 
@@ -28,18 +28,18 @@ header {
 }
 
 .planetasBox {
-  position: absolute;
+  background: rgba(24, 26, 37, 0.5);
   height: 80px;
   width: 80%;
-  background: rgba(24, 26, 37, 0.5);
+  position: absolute;
   border: 1px white solid;
   border-radius: 17px;
-  top: 140px;
-  display: flex;
   align-items: center;
+  display: flex;
+  top: 140px;
   align-self: center;
-  mix-blend-mode: hard-light;
   justify-content: center;
+  mix-blend-mode: hard-light;
 }
 
 .planetasText {
@@ -50,161 +50,161 @@ header {
 
 
 #Mercúrio img {
-  position: absolute;
-  height: 31px;
-  width: 41px;
   left: 130px;
   top: 416px;
+  height: 31px;
+  width: 41px;
+  position: absolute;
 
 }
 
 #Mercúrio p {
-  position: absolute;
-  height: 24px;
-  width: 71px;
-  left: 115px;
   font-family: Arial, Helvetica, sans-serif;
-  top: 518px;
+  left: 115px;
   font-style: normal;
   font-size: 18px;
-  font-weight: 400;
   color: white;
+  font-weight: 400;
   line-height: 150%;
+  top: 518px;
+  height: 24px;
+  width: 71px;
+  position: absolute;
 }
 
 #Vênus img {
-  position: absolute;
-  height: 76px;
-  width: 102px;
-  border-radius: 17px;
   left: 228px;
   top: 393px;
+  border-radius: 17px;
+  height: 76px;
+  width: 102px;
+  position: absolute;
 }
 
 #Vênus p {
-  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+  font-weight: 400;
+  line-height: 150%;
+  left: 255px;
+  top: 518px;
   height: 24px;
   width: 48px;
-  left: 255px;
-  font-family: Arial, Helvetica, sans-serif;
-  top: 518px;
-  font-style: normal;
-  font-size: 18px;
-  font-weight: 400;
-  color: white;
-  line-height: 150%;
+  position: absolute;
 }
 
 #Terra img {
-  position: absolute;
-  height: 79px;
-  width: 106px;
   left: 369px;
   top: 392px;
+  height: 79px;
+  width: 106px;
+  position: absolute;
 }
 
 #Terra p {
-  position: absolute;
-  height: 24px;
-  width: 41px;
-  left: 402px;
-  color: white;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: white;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  left: 402px;
+  top: 518px;
+  height: 24px;
+  width: 41px;
+  position: absolute;
 }
 
 #Marte img {
-  position: absolute;
-  height: 50px;
-  width: 66px;
   left: 514px;
   top: 406px;
+  height: 50px;
+  width: 66px;
+  position: absolute;
 }
 
 #Marte p {
-  position: absolute;
-  height: 24px;
-  width: 47px;
-  left: 524px;
-  color: white;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: white;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  left: 524px;
+  top: 518px;
+  height: 24px;
+  width: 47px;
+  position: absolute;
 }
 
 #Júpiter img {
-  position: absolute;
-  height: 204px;
-  width: 272px;
   left: 580px;
   top: 314px;
+  height: 204px;
+  width: 272px;
+  position: absolute;
 }
 
 #Júpiter p {
-  position: absolute;
-  height: 24px;
-  width: 52px;
-  left: 690px;
-  color: white;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  color: white;
+  left: 690px;
+  top: 518px;
+  height: 24px;
+  width: 52px;
+  position: absolute;
 }
 
 #Saturno img {
-  position: absolute;
-  height: 210.9px;
-  width: 282.41px;
   left: 785px;
   top: 310px;
+  height: 210.9px;
+  width: 282.41px;
+  position: absolute;
   transform: rotate(-16.53deg);
 }
 
 #Saturno p {
-  position: absolute;
-  height: 24px;
-  width: 63px;
-  left: 903px;
-  color: white;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: white;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  left: 903px;
+  top: 518px;
+  height: 24px;
+  width: 63px;
+  position: absolute;
 }
 
 #Urano img {
-  position: absolute;
-  height: 109px;
-  width: 144px;
   left: 1068px;
   top: 372px;
+  height: 109px;
+  width: 144px;
+  position: absolute;
 
 }
 
 #Urano p {
-  position: absolute;
-  height: 24px;
-  width: 47px;
-  left: 1116px;
-  color: white;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: white;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  left: 1116px;
+  top: 518px;
+  height: 24px;
+  width: 47px;
+  position: absolute;
 }
 
 #Netuno img {
@@ -216,17 +216,17 @@ header {
 }
 
 #Netuno p {
-  position: absolute;
-  height: 24px;
-  width: 58px;
-  left: 1245px;
-  color: white;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: white;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  left: 1245px;
+  top: 518px;
+  height: 24px;
+  width: 58px;
+  position: absolute;
 }
 
 .missoes {
@@ -238,16 +238,16 @@ header {
 
 .missoesBox {
   position: absolute;
-  height: 80px;
-  width: 80%;
   background: rgba(24, 26, 37, 0.5);
   border: 1px white solid;
+  height: 80px;
+  width: 80%;
   border-radius: 17px;
-  top: 650px;
-  display: flex;
   align-items: center;
-  mix-blend-mode: hard-light;
+  display: flex;
+  top: 650px;
   align-self: center;
+  mix-blend-mode: hard-light;
   justify-content: center;
 }
 
@@ -259,11 +259,11 @@ header {
 
 .missionCard {
   background: rgba(24, 26, 37, 0.5);
+  border: 1px solid #FFFFFF;
   height: 281px;
   width: 354px;
-  border: 1px solid #FFFFFF;
-  mix-blend-mode: hard-light;
   border-radius: 17px;
+  mix-blend-mode: hard-light;
   box-sizing: border-box;
   margin-bottom: 30px;
 }
@@ -271,8 +271,8 @@ header {
 .missionCard p {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
   font-size: 23px;
+  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   margin-left: 10px;
@@ -285,12 +285,12 @@ header {
 }
 
 .cards {
+  display: flex;
+  position: absolute;
   left: 140px;
   top: 800px;
-  position: absolute;
-  display: flex;
-  width: 80%;
-  flex-wrap: wrap;
   align-items: baseline;
+  flex-wrap: wrap;
+  width: 80%;
   justify-content: space-around;
 }

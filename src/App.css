@@ -3,7 +3,6 @@ body {
   background: #C5C9CE;
   background-image: url(./images/background.png);
   background-size: cover;
-  background-repeat: no-repeat;
   width: 1440px;
   height: 2480px;
   display: flex;
@@ -32,7 +31,7 @@ header {
   position: absolute;
   width: 80%;
   height: 80px;
-  top: 180px;
+  top: 140px;
   border-radius: 17px;
   border: 1px white solid;
   background: rgba(24, 26, 37, 0.5);
@@ -55,7 +54,7 @@ header {
   width: 41px;
   height: 31px;
   left: 130px;
-  top: 516px;
+  top: 416px;
 
 }
 
@@ -64,7 +63,7 @@ header {
   width: 71px;
   height: 24px;
   left: 115px;
-  top: 618px;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -78,7 +77,8 @@ header {
   width: 102px;
   height: 76px;
   left: 228px;
-  top: 493px;
+  border-radius: 17px;
+  top: 393px;
 }
 
 #Vênus p {
@@ -86,7 +86,7 @@ header {
   width: 48px;
   height: 24px;
   left: 255px;
-  top: 618px;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ header {
   width: 106px;
   height: 79px;
   left: 369px;
-  top: 492px;
+  top: 392px;
 }
 
 #Terra p {
@@ -108,7 +108,7 @@ header {
   width: 41px;
   height: 24px;
   left: 402px;
-  top: 618px;
+  top: 518px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -122,7 +122,7 @@ header {
   width: 66px;
   height: 50px;
   left: 514px;
-  top: 506px;
+  top: 406px;
 }
 
 #Marte p {
@@ -130,7 +130,7 @@ header {
   width: 47px;
   height: 24px;
   left: 524px;
-  top: 618px;
+  top: 518px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -144,7 +144,7 @@ header {
   width: 272px;
   height: 204px;
   left: 580px;
-  top: 414px;
+  top: 314px;
 }
 
 #Júpiter p {
@@ -152,7 +152,7 @@ header {
   width: 52px;
   height: 24px;
   left: 690px;
-  top: 618px;
+  top: 518px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -166,7 +166,7 @@ header {
   width: 282.41px;
   height: 210.9px;
   left: 785px;
-  top: 410px;
+  top: 310px;
   transform: rotate(-16.53deg);
 }
 
@@ -174,8 +174,8 @@ header {
   position: absolute;
   width: 63px;
   height: 24px;
-  left: 933px;
-  top: 618px;
+  left: 903px;
+  top: 518px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -189,7 +189,7 @@ header {
   width: 144px;
   height: 109px;
   left: 1068px;
-  top: 472px;
+  top: 372px;
 
 }
 
@@ -198,7 +198,7 @@ header {
   width: 47px;
   height: 24px;
   left: 1116px;
-  top: 618px;
+  top: 518px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -212,7 +212,7 @@ header {
   width: 144px;
   height: 107px;
   left: 1202px;
-  top: 472px;
+  top: 372px;
 }
 
 #Netuno p {
@@ -220,7 +220,7 @@ header {
   width: 58px;
   height: 24px;
   left: 1245px;
-  top: 618px;
+  top: 518px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -240,7 +240,7 @@ header {
   position: absolute;
   width: 80%;
   height: 80px;
-  top: 800px;
+  top: 650px;
   border-radius: 17px;
   border: 1px white solid;
   background: rgba(24, 26, 37, 0.5);
@@ -255,4 +255,42 @@ header {
   color: white;
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.missionCard {
+  width: 354px;
+  height: 281px;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 17px;
+  margin-bottom: 30px;
+}
+
+.missionCard p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+#missionName {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cards {
+  position: absolute;
+  left: 140px;
+  top: 800px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
 }

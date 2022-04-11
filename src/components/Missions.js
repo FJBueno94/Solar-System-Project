@@ -12,15 +12,17 @@ class Missions extends React.Component {
           classeTitleBox="missoesBox"
           classeTitle="missoesText"
         />
-        {missions.map((e) => (
-          <MissionCard
-            key={ e.name }
-            name={ e.name }
-            year={ e.year }
-            country={ e.country }
-            destination={ e.destination }
-          />
-        ))}
+        <div className="cards">
+          {missions.map((e) => (
+            <MissionCard
+              key={ e.name }
+              name={ e.name }
+              year={ e.year }
+              country={ e.country }
+              destination={ e.destination }
+            />
+          ))}
+        </div>
       </div>
     );
   }

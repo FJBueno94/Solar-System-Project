@@ -1,12 +1,12 @@
 body {
-  position: relative;
   background: #C5C9CE;
+  position: relative;
   background-image: url(./images/background.png);
   background-size: cover;
-  width: 1440px;
-  height: 2480px;
   display: flex;
   justify-content: center;
+  height: 2480px;
+  width: 1440px;
 }
 
 header {
@@ -15,11 +15,11 @@ header {
 }
 
 .header {
-  text-align: center;
   color: white;
+  text-align: center;
   font-size: 60px;
-  font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 .planetas {
@@ -29,30 +29,30 @@ header {
 
 .planetasBox {
   position: absolute;
-  width: 80%;
   height: 80px;
-  top: 140px;
-  border-radius: 17px;
-  border: 1px white solid;
+  width: 80%;
   background: rgba(24, 26, 37, 0.5);
-  mix-blend-mode: hard-light;
+  border: 1px white solid;
+  border-radius: 17px;
+  top: 140px;
   display: flex;
   align-items: center;
-  justify-content: center;
   align-self: center;
+  mix-blend-mode: hard-light;
+  justify-content: center;
 }
 
 .planetasText {
   color: white;
-  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
 }
 
 
 #Mercúrio img {
   position: absolute;
-  width: 41px;
   height: 31px;
+  width: 41px;
   left: 130px;
   top: 416px;
 
@@ -60,111 +60,111 @@ header {
 
 #Mercúrio p {
   position: absolute;
-  width: 71px;
   height: 24px;
+  width: 71px;
   left: 115px;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
+  top: 518px;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
+  font-weight: 400;
   color: white;
+  line-height: 150%;
 }
 
 #Vênus img {
   position: absolute;
-  width: 102px;
   height: 76px;
-  left: 228px;
+  width: 102px;
   border-radius: 17px;
+  left: 228px;
   top: 393px;
 }
 
 #Vênus p {
   position: absolute;
-  width: 48px;
   height: 24px;
+  width: 48px;
   left: 255px;
-  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
+  top: 518px;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
+  color: white;
   line-height: 150%;
-  color: white
 }
 
 #Terra img {
   position: absolute;
-  width: 106px;
   height: 79px;
+  width: 106px;
   left: 369px;
   top: 392px;
 }
 
 #Terra p {
   position: absolute;
-  width: 41px;
   height: 24px;
+  width: 41px;
   left: 402px;
-  top: 518px;
   color: white;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 150%;
 }
 
 #Marte img {
   position: absolute;
-  width: 66px;
   height: 50px;
+  width: 66px;
   left: 514px;
   top: 406px;
 }
 
 #Marte p {
   position: absolute;
-  width: 47px;
   height: 24px;
+  width: 47px;
   left: 524px;
-  top: 518px;
   color: white;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 150%;
 }
 
 #Júpiter img {
   position: absolute;
-  width: 272px;
   height: 204px;
+  width: 272px;
   left: 580px;
   top: 314px;
 }
 
 #Júpiter p {
   position: absolute;
-  width: 52px;
   height: 24px;
+  width: 52px;
   left: 690px;
-  top: 518px;
   color: white;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 150%;
 }
 
 #Saturno img {
   position: absolute;
-  width: 282.41px;
   height: 210.9px;
+  width: 282.41px;
   left: 785px;
   top: 310px;
   transform: rotate(-16.53deg);
@@ -172,22 +172,22 @@ header {
 
 #Saturno p {
   position: absolute;
-  width: 63px;
   height: 24px;
+  width: 63px;
   left: 903px;
-  top: 518px;
   color: white;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 150%;
 }
 
 #Urano img {
   position: absolute;
-  width: 144px;
   height: 109px;
+  width: 144px;
   left: 1068px;
   top: 372px;
 
@@ -195,37 +195,37 @@ header {
 
 #Urano p {
   position: absolute;
-  width: 47px;
   height: 24px;
+  width: 47px;
   left: 1116px;
-  top: 518px;
   color: white;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 150%;
 }
 
 #Netuno img {
   position: absolute;
-  width: 144px;
   height: 107px;
+  width: 144px;
   left: 1202px;
   top: 372px;
 }
 
 #Netuno p {
   position: absolute;
-  width: 58px;
   height: 24px;
+  width: 58px;
   left: 1245px;
-  top: 518px;
   color: white;
+  top: 518px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 150%;
 }
 
@@ -238,33 +238,33 @@ header {
 
 .missoesBox {
   position: absolute;
-  width: 80%;
   height: 80px;
-  top: 650px;
-  border-radius: 17px;
-  border: 1px white solid;
+  width: 80%;
   background: rgba(24, 26, 37, 0.5);
-  mix-blend-mode: hard-light;
+  border: 1px white solid;
+  border-radius: 17px;
+  top: 650px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  mix-blend-mode: hard-light;
   align-self: center;
+  justify-content: center;
 }
 
 .missoesText {
   color: white;
-  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
 }
 
 .missionCard {
-  width: 354px;
-  height: 281px;
   background: rgba(24, 26, 37, 0.5);
-  mix-blend-mode: hard-light;
+  height: 281px;
+  width: 354px;
   border: 1px solid #FFFFFF;
-  box-sizing: border-box;
+  mix-blend-mode: hard-light;
   border-radius: 17px;
+  box-sizing: border-box;
   margin-bottom: 30px;
 }
 
@@ -272,11 +272,11 @@ header {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 23px;
+  font-weight: 400;
   line-height: 120%;
-  text-align: justify;
   margin-left: 10px;
+  text-align: justify;
 }
 
 #missionName {
@@ -285,12 +285,12 @@ header {
 }
 
 .cards {
-  position: absolute;
   left: 140px;
   top: 800px;
-  width: 80%;
+  position: absolute;
   display: flex;
+  width: 80%;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: baseline;
+  justify-content: space-around;
 }
